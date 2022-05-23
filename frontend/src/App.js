@@ -1,10 +1,21 @@
+import data from './data';
+
 function App() {
   return (
     <div>
       <header>
         <a href="/">Tickets Card Shop</a>
       </header>
-      <main>List Products</main>
+      <main>
+        <h1>Featured Products</h1>
+        {data.products.map((product) => (
+          <div key={product.slug}>
+            <img src={product.image} alt={product.name} />
+            <p>{product.name}</p>
+            <p>{product.price}</p>
+          </div>
+        ))}
+      </main>
     </div>
   );
 }
