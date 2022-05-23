@@ -4,7 +4,7 @@ const data = {
       name: 'Astral Radiance Booster Box',
       slug: 'Astral-booster-box',
       category: 'Astral Radiance',
-      image: '/images/.jpg',
+      image: '/images/p1.jpg',
       price: 169,
       countInStock: 1,
       Brand: 'Pokemon',
@@ -16,7 +16,7 @@ const data = {
       name: 'Brilliant Stars Booster Box',
       slug: 'Brilliant-booster-box',
       category: 'Brilliant Stars',
-      image: '/images/.jpg',
+      image: '/images/p2.jpg',
       price: 180,
       countInStock: 10,
       Brand: 'Pokemon',
@@ -28,7 +28,7 @@ const data = {
       name: 'Fusion Strike Booster Box',
       slug: 'Fusion-booster-box',
       category: 'Fusion Strike',
-      image: '/images/.jpg',
+      image: '/images/p3.jpg',
       price: 150,
       countInStock: 5,
       Brand: 'Pokemon',
@@ -40,7 +40,7 @@ const data = {
       name: 'Evolving Skies Booster Box',
       slug: 'Evolving-booster-box',
       category: 'Evolving Skies',
-      image: '/images/.jpg',
+      image: '/images/p4.jpg',
       price: 190,
       countInStock: 12,
       Brand: 'Pokemon',
@@ -50,3 +50,5 @@ const data = {
     },
   ],
 };
+
+export default data;
