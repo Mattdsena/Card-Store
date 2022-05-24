@@ -3,7 +3,6 @@ import data from '../data';
 function HomeScreen() {
   return (
     <div>
-      {' '}
       <h1>Featured Products</h1>
       <div className="products">
         {data.products.map((product) => (
