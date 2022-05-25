@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
         <header>
-          <Navbar bg="dark" variant="dark">
+          <Navbar bg="danger" variant=";ight">
             <Container>
               <LinkContainer to="/</Container>">
                 <Navbar.Brand>Tickets Card Shop</Navbar.Brand>
