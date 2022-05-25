@@ -13,7 +13,10 @@ body {
 main {
   flex: 1;
 }
-
+.btn-primary {
+  background-color: #f0c040;
+  color: #404040;
+}
 .products {
   display: flex;
   flex-wrap: wrap;
