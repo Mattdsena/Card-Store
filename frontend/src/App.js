@@ -12,14 +12,14 @@ function App() {
         <header>
           <Navbar bg="danger" variant="light">
             <Container>
-              <LinkContainer to="/</Container>">
+              <LinkContainer to="/">
                 <Navbar.Brand>Tickets Card Shop</Navbar.Brand>
               </LinkContainer>
             </Container>
           </Navbar>
         </header>
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
