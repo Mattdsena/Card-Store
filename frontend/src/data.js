@@ -6,7 +6,7 @@ const data = {
       category: 'Astral Radiance',
       image: '/images/p1.jpg',
       price: 169,
-      countInStock: 1,
+      countInStock: 10,
       Brand: 'Pokemon',
       rating: 5,
       numReviews: 10,

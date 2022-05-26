@@ -18,7 +18,7 @@ const data = {
       category: 'Brilliant Stars',
       image: '/images/p2.jpg',
       price: 180,
-      countInStock: 10,
+      countInStock: 0,
       Brand: 'Pokemon',
       rating: 5,
       numReviews: 30,
