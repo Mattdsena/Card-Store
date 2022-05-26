@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Astral Radiance Booster Box',
       slug: 'Astral-booster-box',
       category: 'Astral Radiance',
@@ -13,6 +14,7 @@ const data = {
       description: 'New Pokemon Booster Box',
     },
     {
+      _id: '2',
       name: 'Brilliant Stars Booster Box',
       slug: 'Brilliant-booster-box',
       category: 'Brilliant Stars',
@@ -25,6 +27,7 @@ const data = {
       description: 'New Pokemon Booster Box',
     },
     {
+      _id: '3',
       name: 'Fusion Strike Booster Box',
       slug: 'Fusion-booster-box',
       category: 'Fusion Strike',
@@ -37,6 +40,7 @@ const data = {
       description: 'New Pokemon Booster Box',
     },
     {
+      _id: '4',
       name: 'Evolving Skies Booster Box',
       slug: 'Evolving-booster-box',
       category: 'Evolving Skies',
