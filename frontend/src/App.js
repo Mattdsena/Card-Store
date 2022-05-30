@@ -104,7 +104,9 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">All Rights Reserved</div>
+          <Navbar bg="primary" variant="light" expand="lg">
+            <Navbar.Brand></Navbar.Brand>
+          </Navbar>
         </footer>
       </div>
     </BrowserRouter>
